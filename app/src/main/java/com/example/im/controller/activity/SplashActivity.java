@@ -11,10 +11,8 @@ import com.example.im.R;
 import com.example.im.model.Model;
 import com.example.im.model.bean.UserInfo;
 import com.hyphenate.chat.EMClient;
-
 public class SplashActivity extends Activity {
 
-    @SuppressLint("HandlerLeak")
     private Handler handler = new Handler(){
         public void handleMessage(Message msg){
 
